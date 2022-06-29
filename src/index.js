@@ -9,19 +9,22 @@ import reportWebVitals from './reportWebVitals';
 
 
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+ <Newsfeed />
+);
+
+
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
+//   React.createElement(Newsfeed, {}, null)
 // );
 
-
-//INSTRUCTOR VERSION IN WEEK 13 VIDEO
-ReactDOM.render(
-  React.createElement(Newsfeed, {}, null),
-  document.getElementById('root')
-);
+// //INSTRUCTOR VERSION IN WEEK 13 VIDEO
+// ReactDOM.render(
+//   React.createElement(Newsfeed, {}, null),
+//   document.getElementById('root')
+// );
 
 
 
